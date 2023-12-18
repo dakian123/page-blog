@@ -1,0 +1,49 @@
+.item {
+    color: var(--text-text);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.item:hover {
+    color: var(--text-heading);
+}
+
+.nav-list__item {
+    list-style-type: none;
+    padding: 0 calc(var(--nav-gap) / 2);
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    margin: 0 -15px;
+}
+
+
+.header__container {
+    padding-top: 16px;
+}
+
+.header__nav {
+    padding-left: 174px;
+    padding-right: 120px;
+}
+
+.header__row {
+    align-items: center;
+    justify-content: center;
+}
+
+.header__group-right {
+    display: flex;
+    align-items: center;
+}
+
+.header__bag-icon {
+    padding: 12px 30px 12px 20px;
+}

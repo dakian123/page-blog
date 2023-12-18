@@ -1,0 +1,31 @@
+.pagination {
+    align-items: center;
+    justify-content: center;
+    margin: 25px -20px 0;
+}
+
+.pagination__link {
+    margin: 0 20px;
+    padding: 12px 20px;
+    color: var(--text-text);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.pagination__link--arrow {
+    padding: 12px 0;
+    margin: 0 0;
+}
+
+
+
+.pagination__link:hover {
+    color: var(--text-text-white);
+    border-radius: 5px;
+    background: var(--action-blue);
+}

@@ -1,0 +1,16 @@
+// Abstract
+@import 'abstracts/variable.scss';
+//Base
+@import 'base/reset.scss';
+@import 'base/typography.scss';
+// Layout
+@import 'layout/grid.scss';
+// Component
+@import 'component/hero.scss';
+@import 'component/post.scss';
+@import 'component/button.scss';
+@import 'component/header.scss';
+@import 'component/pagination.scss';
+@import 'component/sidebar.scss';
+@import 'component/cta.scss';
+@import 'component/footer.scss'

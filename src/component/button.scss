@@ -1,0 +1,40 @@
+.button {
+    font-family: var(--font-primary);
+    color: var(--btn-text-color);
+    border-radius: 5px;
+    background: var(--action-blue);
+    border: 0;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.7;
+    letter-spacing: -0.3px;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.button--md {
+    padding: 13px 24px;
+}
+
+.button--lg {
+    font-family: var(--font-primary);
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 18px 32px;
+}
+
+.button--xl {
+    padding: 17px 147px;
+    font-size: 15px;
+    line-height: 1.6;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button--purple {
+    background: var(--action-purple);
+}

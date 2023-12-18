@@ -1,0 +1,32 @@
+.cta__row {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.cta__heading {
+    span {
+        color: var(--action-green);
+    }
+}
+
+.cta__paragraph {
+    padding-bottom: 30px;
+}
+
+.cta__title {
+    padding-bottom: 70px;
+    align-items: center;
+}
+
+.cta__container {
+    padding: 100px 0;
+}
+
+.cta {
+    background-image: url("../assets/Background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

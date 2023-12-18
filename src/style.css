@@ -469,7 +469,7 @@ body {
 }
 
 .sidebar__search-input {
-  padding: 15px 30px 15px 18px;
+  padding: 15px 10px 15px 18px;
   border-radius: 5px;
   border: 1px solid var(--lines-gray-line);
   background: var(--bg-white);
@@ -479,7 +479,7 @@ body {
   position: absolute;
   z-index: 1;
   top: 18px;
-  left: 180px;
+  left: 165px;
 }
 
 .sidebar__search-input::-moz-placeholder {

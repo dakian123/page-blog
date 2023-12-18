@@ -12,15 +12,15 @@
 .hero__paragraph {
     padding-top: 30px;
     color: var(--text-heading);
-    font-family: var(--font-secondary);
     text-align: center;
     font-size: 15px;
     font-weight: 500;
     line-height: 1.6;
     letter-spacing: -0.3px;
     text-transform: uppercase;
-}
 
-.hero__paragraph-inline {
-    color: var(--text-text);
+    span {
+        color: var(--text-text);
+
+    }
 }

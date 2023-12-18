@@ -225,7 +225,6 @@ body {
 .hero__paragraph {
   padding-top: 30px;
   color: var(--text-heading);
-  font-family: var(--font-secondary);
   text-align: center;
   font-size: 15px;
   font-weight: 500;
@@ -233,8 +232,7 @@ body {
   letter-spacing: -0.3px;
   text-transform: uppercase;
 }
-
-.hero__paragraph-inline {
+.hero__paragraph span {
   color: var(--text-text);
 }
 

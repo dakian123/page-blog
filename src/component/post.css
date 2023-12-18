@@ -1,0 +1,55 @@
+.content__container {
+  padding: 100px 0;
+}
+
+.post {
+  padding-right: 60px;
+}
+
+.post__row {
+  flex-direction: column;
+  margin: -25px 0;
+}
+
+.post__item {
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid var(--lines-gray-line);
+  background: var(--bg-white);
+  margin: 25px 0;
+}
+
+.post__info-top {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__info {
+  padding: 25px 40px 40px 40px;
+}
+
+.post__title {
+  padding: 30px 0 30px 0;
+  color: var(--text-heading);
+  font-style: normal;
+  text-align: unset;
+}
+
+.post__author {
+  align-items: center;
+}
+
+.post__author-text {
+  padding: 5px 0 5px 10px;
+  color: var(--text-text);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+}
+
+.post__paragraph {
+  padding-bottom: 40px;
+  text-align: unset;
+}/*# sourceMappingURL=post.css.map */

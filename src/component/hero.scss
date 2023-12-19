@@ -9,6 +9,15 @@
     align-items: center;
 }
 
+.hero__heading {
+    color: var(--text-heading);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -2px;
+}
+
 .hero__paragraph {
     padding-top: 30px;
     color: var(--text-heading);

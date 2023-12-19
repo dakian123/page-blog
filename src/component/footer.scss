@@ -13,13 +13,20 @@
 .footer__logo {
     padding-right: 30px;
     padding-bottom: 300px;
-    display: flex;
-    align-items: center;
+
+    a {
+        display: flex;
+        align-items: center;
+    }
 }
 
 .footer__heading {
     color: var(--text-text-white);
     padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: -1px;
 }
 
 .footer__description {
@@ -30,10 +37,18 @@
 
 .footer__warning {
     padding-top: 15px;
+    color: var(--text-text-gray);
+    font-family: var(--font-secondary);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: -0.3px;
 }
 
 .footer__email {
-    padding: 13px 24px;
+    padding: 17px 24px;
+    border-radius: 5px;
+    background: var(--text-text-gray);
 }
 
 .footer__email::placeholder {
@@ -47,12 +62,16 @@
 }
 
 .footer__link {
-    color: var(--text-text-gray);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.7;
-    letter-spacing: -0.3px;
-    text-transform: uppercase;
+    a {
+        color: var(--text-text-gray);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.7;
+        letter-spacing: -0.3px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
     padding-top: 10px;
 }
 
@@ -65,6 +84,10 @@
 .footer__copyright-text {
     text-align: unset;
     color: var(--text-text-gray);
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
     padding: 40px 0 40px 0;
 }
 

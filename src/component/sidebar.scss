@@ -29,7 +29,7 @@
     position: absolute;
     z-index: 1;
     top: 18px;
-    left: 165px;
+    right: 30px;
 }
 
 .sidebar__search-input::placeholder {
@@ -45,6 +45,11 @@
 
 .sidebar__item-heading {
     padding-bottom: 20px;
+    color: var(--text-heading);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: 0.4px;
 }
 
 .sidebar__article {
@@ -53,13 +58,24 @@
 }
 
 .sidebar__article-item {
-    align-items: start;
+
     padding: 10px 0;
+
+    a {
+        text-decoration: none;
+        display: flex;
+        align-items: start;
+    }
 }
 
 .sidebar__article-paragraph {
     color: var(--text-text);
     padding-left: 20px;
+    font-family: var(--font-secondary);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: -0.3px;
 }
 
 /* top | right | bottom | left */
@@ -73,6 +89,12 @@
     background-repeat: no-repeat;
     background-position: right 0.7rem top 50%;
     background-size: 0.65rem auto;
+    color: var(--text-text);
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .sidebar__tag-group {
@@ -112,4 +134,8 @@
 .sidebar__subscribe-heading {
     color: var(--text-text-white);
     padding-bottom: 40px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: -1px;
 }

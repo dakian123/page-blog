@@ -1,6 +1,5 @@
 .button {
     font-family: var(--font-primary);
-    color: var(--btn-text-color);
     border-radius: 5px;
     background: var(--action-blue);
     border: 0;
@@ -11,6 +10,11 @@
     letter-spacing: -0.3px;
     text-transform: uppercase;
     font-style: normal;
+
+    a {
+        text-decoration: none;
+        color: var(--btn-text-color);
+    }
 }
 
 .button--md {

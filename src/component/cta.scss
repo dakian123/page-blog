@@ -1,3 +1,11 @@
+.cta {
+    background-image: url("../assets/Background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .cta__row {
     flex-direction: column;
     text-align: center;
@@ -5,6 +13,13 @@
 }
 
 .cta__heading {
+    color: var(--text-heading);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -2px;
+
     span {
         color: var(--action-green);
     }
@@ -12,6 +27,11 @@
 
 .cta__paragraph {
     padding-bottom: 30px;
+    color: var(--text-heading);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: -1px;
 }
 
 .cta__title {
@@ -23,10 +43,18 @@
     padding: 100px 0;
 }
 
-.cta {
-    background-image: url("../assets/Background.png");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.cta__email {
+    padding: 17px 24px;
+    border-radius: 5px;
+    border: 1px solid var(--lines-gray-line);
+    background: var(--text-text-white);
+}
+
+.cta__email::placeholder {
+    color: var(--text-text);
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
 }
